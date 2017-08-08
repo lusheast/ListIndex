@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="moocollege.cn.listindex.MainActivity">
+
+    <TextView
+        android:id="@+id/dialog"
+        android:layout_width="80.0dip"
+        android:layout_height="80.0dip"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:background="@drawable/back_search_bar"
+        android:gravity="center"
+        android:text="A"
+        android:textColor="@color/colorAccent"
+        android:textSize="30.0dip"
+        android:visibility="gone" />
+
+    <moocollege.cn.listindex.SliderBar
+        android:id="@+id/slide_bar"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingBottom="10dp"
+        android:paddingRight="16dp"
+        android:paddingTop="10dp" />
+</RelativeLayout>
